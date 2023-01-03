@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+}
+
+.App {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
