@@ -12,8 +12,14 @@ body {
   display: flex;
 }
 
-.App {
+.list-wrapper {
   text-align: center;
   align-items: center;
   margin: auto;
+  position: relative;
+  top: 6rem;
+}
+
+.app-content {
+  width: 100%;
 }
