@@ -34,7 +34,6 @@ export default function ControlledForm() {
   return (
     <>
       <form onSubmit={handleSubmit} className="form">
-        <h5 class="mb-3 form-title">Add a friend to your friend's list</h5>
         <div class="form-floating">
           <input type="text" class="form-control name" value={name} onChange={(e) => setName((e.target.value))} placeholder="Your friend's name" />
           <label for="floatingInput">Name</label>
