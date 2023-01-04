@@ -15,7 +15,7 @@ export default function Nav() {
                                 <a className="nav-link active" aria-current="page" href="/">Controlled inputs</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">useRef inputs</a>
+                                <a className="nav-link" href="/">Uncontrolled inputs</a>
                             </li>
                         </ul>
                     </div>
