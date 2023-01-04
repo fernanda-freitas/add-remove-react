@@ -35,6 +35,7 @@ export default function UncontrolledForm() {
   return (
     <>
       <form onSubmit={handleSubmit} className="form">
+        <h4 className="form-title">Controlled form</h4>
         <div class="form-floating">
           <input ref={nameInputRef} type="text" class="form-control name" placeholder="Your friend's name" />
           <label for="floatingInput">Name</label>

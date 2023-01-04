@@ -1,4 +1,4 @@
-import { Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import './App.css';
 import ControlledForm from '../ControlledForm'
 import UncontrolledForm from '../UncontrolledForm'
@@ -8,8 +8,10 @@ export default function App() {
   return (
     <div className='app-content'>
       <Nav />
-      {/* <ControlledForm /> */}
-      <UncontrolledForm />
+      <Routes>
+        <Route path="/controlled-form" element={ <ControlledForm />} />
+        <Route path="/uncontrolled-form" element={ <UncontrolledForm />} />
+      </Routes>
     </div>
   );
 }
