@@ -1,5 +1,6 @@
+import { Route } from 'react-router-dom'
 import './App.css';
-import List from '../List'
+import ControlledForm from '../ControlledForm'
 import Nav from '../Nav'
 
 export default function App() {
@@ -7,7 +8,7 @@ export default function App() {
     <div className='app-content'>
       <Nav />
       <div className="list-wrapper">
-        <List />
+        <ControlledForm />
       </div>
     </div>
   );
