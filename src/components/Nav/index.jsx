@@ -1,4 +1,5 @@
 import './nav.css'
+import {NavLink} from 'react-router-dom'
 
 export default function Nav() {
     return (
@@ -12,10 +13,10 @@ export default function Nav() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">Controlled Form</a>
+                                <NavLink to="/" className="nav-link">Controlled Form</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/uncontrolled-form">Uncontrolled Form</a>
+                                <NavLink to="/uncontrolled-form" className="nav-link">Uncontrolled Form</NavLink>
                             </li>
                         </ul>
                     </div>
