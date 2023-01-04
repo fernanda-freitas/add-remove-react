@@ -1,5 +1,6 @@
 import { useState } from "react";
-import List from '../List'
+import './controlledForm.css';
+import List from '../List';
 
 export default function ControlledForm() {
   const newUsers = [
@@ -32,20 +33,17 @@ export default function ControlledForm() {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
-        <h4 class="mb-3 fw-normal">Add a friend to the list</h4>
-
+      <form onSubmit={handleSubmit} className="form">
+        <h5 class="mb-3 form-title">Add a friend to your friend's list</h5>
         <div class="form-floating">
           <input type="text" class="form-control name" value={name} onChange={(e) => setName((e.target.value))} placeholder="Your friend's name" />
           <label for="floatingInput">Name</label>
         </div>
-
         <div class="form-floating">
           <input type="text" class="form-control age" value={age} onChange={(e) => setAge((e.target.value))} placeholder="age" />
           <label for="floatingInput">Age</label>
         </div>
-
-        <button class="w-100 btn btn-lg btn-primary mt-4" type="submit">Enviar</button>
+        <button class="w-100 btn btn-lg btn-primary mt-4" type="submit">Add</button>
       </form>
       <List users={users} updateList={deleteUser}/>
     </>

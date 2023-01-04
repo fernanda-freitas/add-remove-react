@@ -1,4 +1,4 @@
-import './list.css'
+import './list.css';
 
 export default function List({users, updateList}) {
 
@@ -7,7 +7,7 @@ export default function List({users, updateList}) {
   }
 
   return(
-    <div className="form m-auto">
+    <div className="list m-auto">
       <ul>
         {users.map((user) => {
           return (

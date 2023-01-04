@@ -7,9 +7,7 @@ export default function App() {
   return (
     <div className='app-content'>
       <Nav />
-      <div className="list-wrapper">
-        <ControlledForm />
-      </div>
+      <ControlledForm />
     </div>
   );
 }

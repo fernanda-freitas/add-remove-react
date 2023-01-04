@@ -1,24 +1,7 @@
-.form {
+.list {
   width: 330px;
   padding: 15px;
   margin: auto!important;
-}
-
-.form-floating {
-  position: relative;
-
-}
-
-.name {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.age {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
 }
 
 ul {
