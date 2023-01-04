@@ -9,7 +9,7 @@ export default function App() {
     <div className='app-content'>
       <Nav />
       <Routes>
-        <Route path="/controlled-form" element={ <ControlledForm />} />
+        <Route path="/" element={ <ControlledForm />} />
         <Route path="/uncontrolled-form" element={ <UncontrolledForm />} />
       </Routes>
     </div>
